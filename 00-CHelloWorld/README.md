@@ -1,6 +1,7 @@
 # Autor:
 - Apellido: Pacheco
 - Nombre: Cristian Ezequiel
+- Curso : K2152
 
 # Compilador
 - Version Compilador : gcc (Rev3, MSYS2) 13.2.0

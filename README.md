@@ -1,2 +1,2 @@
 # SSL
-Sintaxis y Semántica de los Lenguajes K2152
+Sintaxis y Semántica de los Lenguajes
