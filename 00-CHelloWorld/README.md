@@ -7,30 +7,7 @@
 - Compilada con C Version : C18
 
 # Aclaraciones
-Para simplificar el proceso he creado un archivo makefile que compila y crea el archivo "output.txt"
-
-El comando que se utiliza es
-- make create_txt
-
-``` Makefile
-    SOURCE = hello.c
-    BIN = hello.exe
-    TXT = output.txt
-    CC = gcc
-    CFLAGS = -std=c18
-
-    $(BIN): $(SOURCE)
-        $(CC) $(SOURCE) -o $(BIN) $(CFLAGS)
-
-    run: $(BIN)
-        ./$(BIN)
-
-    create_txt: $(BIN)
-        ./$(BIN) > $(TXT)
-
-    clean:
-        rm -f $(BIN) $(TXT)
-```
+Para simplificar el proceso de la creación del archivo "output.txt" he creado un archivo Makefile que compila y crea el archivo con el comando **make create_txt**
 
 Comandos extra
 - make clean (permite eliminar los archivos creados)
