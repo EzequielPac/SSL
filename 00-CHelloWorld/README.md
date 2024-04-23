@@ -1,11 +1,6 @@
-# Autor:
-- Apellido: Pacheco
-- Nombre: Cristian Ezequiel
-- Curso : K2152
-
 # Compilador
-- Version Compilador : gcc (Rev3, MSYS2) 13.2.0
-- Compilada con C Version : C18
+- Version Compilador GCC : gcc (Rev3, Built by MSYS2 project) 13.2.0
+- Estandar utilizado : C18
 
 # Aclaraciones
 Para simplificar el proceso de la creación del archivo "output.txt" he creado un archivo Makefile que compila y crea el archivo con el comando **make create_txt**
