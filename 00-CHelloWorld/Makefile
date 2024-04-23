@@ -1,6 +1,6 @@
 SOURCE = hello.c
 BIN = hello.exe
-TXT = output.txts
+TXT = output.txt
 CC = gcc
 CFLAGS = -std=c18
 
@@ -10,7 +10,7 @@ $(BIN): $(SOURCE)
 run: $(BIN)
 	./$(BIN)
 
-create_txt: $(BIN)
+txt: $(BIN)
 	./$(BIN) > $(TXT)
 
 clean:
