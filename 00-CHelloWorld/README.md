@@ -3,7 +3,7 @@
 - Estandar utilizado : C18
 
 # Aclaraciones
-Para simplificar el proceso de la creación del archivo "output.txt" he creado un archivo Makefile que compila y crea el archivo con el comando **make txt**
+Para simplificar la creación del archivo "output.txt", he creado un Makefile que compila y genera el archivo con el comando **make txt**.
 
 Comandos extra
 - make clean (permite eliminar los archivos creados)
